@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.idtv"
+version="0.0.1"
+name="IDTV"
+provider-name="hndr91">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IDTV</summary>
+  <description lang="en">INDONESIA LIVE TV</description>
+  <disclaimer lang="en">Unofficial KODI addons from various sources \n Fanart Texture 42 by xnienke (http://xnienke.deviantart.com/art/Texture-42-286924446)</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>Doesn't support live broadcasted sport event</news>
+</extension>
+</addon>
